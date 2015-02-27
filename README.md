@@ -2,7 +2,7 @@
 
 This script scans all read and unread mail messages stored in Maidir format (http://en.wikipedia.org/wiki/Maildir).
 If an email contains a custom 'X-Filter-Folder' header the script uses the value of this custom header to create
-a subfolder in the mailbox (if it doesn't exist yet) and moves the message to that subfolder.
+a subfolder (if it doesn't exist yet) in the mailbox and moves the message to that subfolder.
 
 ## Usage
 
